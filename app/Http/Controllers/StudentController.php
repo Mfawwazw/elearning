@@ -90,6 +90,7 @@ class StudentController extends Controller
             'name' => $request->name,
             'nim' => $request->nim,
             'major' => $request->major,
+            'class' => $request->class,
             'course_id' => $request->course_id,
         ]);
 
